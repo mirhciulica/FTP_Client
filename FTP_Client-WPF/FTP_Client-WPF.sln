@@ -3,16 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTP_Client-WPF", "FTP_Client-WPF\FTP_Client-WPF.csproj", "{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{6B51DB77-334E-4222-9E92-4F0096284F25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C42AE61-2DC2-4525-B049-D676AD30D3FD}"
+	ProjectSection(SolutionItems) = preProject
+		FTP_Client-WPF.vsmdi = FTP_Client-WPF.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FTP_Client-WPF.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Debug|x86.ActiveCfg = Debug|x86
 		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Debug|x86.Build.0 = Debug|x86
+		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Release|Any CPU.ActiveCfg = Release|x86
+		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Release|Mixed Platforms.Build.0 = Release|x86
 		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Release|x86.ActiveCfg = Release|x86
 		{54B9A984-2FF8-49A3-8B1C-D1E2E46D08A3}.Release|x86.Build.0 = Release|x86
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6B51DB77-334E-4222-9E92-4F0096284F25}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
